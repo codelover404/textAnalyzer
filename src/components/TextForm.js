@@ -10,9 +10,6 @@ function TextForm(props) {
     const changeUp = (e) => {
         setText(e.target.value)
     }
-    const darkmode = () => {
-
-    }
 
     const clearbtn = () => {
         let newText = ' ';

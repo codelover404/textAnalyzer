@@ -3,21 +3,29 @@ import './App.css';
 import TextFrom from './components/TextForm';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Practice from './components/Practice';
 // import {BrowserRouter,Route,Routes} from 'react-router-dom';
 
 // let logo = prompt("please enter site logo name");
-class App extends React.Component {
-  render() {
-    return (
-      <>
-      {/* <Navbar title="logo" link="home" link1="about"/> */}
-      {/* <Navbar title="" link="" link1=""/> */}
-      {/* <Navbar/> */}
-      <TextFrom heading="Enter The Text To Analyze"/>
-      {/* <About/> */}
-      </>
-    )
-  }
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <>
+//       {/* <Navbar title="logo" link="home" link1="about"/> */}
+//       {/* <Navbar title="" link="" link1=""/> */}
+//       {/* <Navbar/> */}
+//       {/* <TextFrom heading="Enter The Text To Analyze"/> */}
+//       {/* <About/> */}
+//       </>
+//     )
+//   }
+// }
+function App(){
+  return(
+    <>
+    <Practice title="logo name" desc="this is demo page for practice"/>      
+    </>
+  )
 }
 
 export default App;
